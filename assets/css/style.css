@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Poppins";
+  font-family: Helvetica;
   color: #444444;
 }
 
@@ -128,7 +128,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 40, 40, 0.9);
+  /*background: rgba(40, 40, 40, 0.9);*/
+  background-color: #009961;
 }
 
 #header .logo {
@@ -421,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/board.jpeg") top center;
   background-size: cover;
   position: relative;
 }
@@ -598,7 +599,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #009961;
+  /*background: #FF6542;*/
   bottom: 0;
   left: 0;
 }
@@ -682,8 +683,9 @@ section {
 .services .icon-box .icon {
   width: 64px;
   height: 64px;
-  background: #009961;
+  background: #7D80DA;
   border-radius: 50px;
+  border: 3px solid #ffd662;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -715,11 +717,11 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  border-color: #009961;
+  border-color: #7D80DA;
 }
 
 .services .icon-box:hover h4 a {
-  color: #009961;
+  color: #7D80DA;
 }
 
 /*--------------------------------------------------------------
@@ -856,7 +858,7 @@ section {
 
 .counts .title {
   position: relative;
-  color: #fff;
+  color: #ffd662;
   margin-bottom: 40px;
 }
 
@@ -869,7 +871,7 @@ section {
   font-size: 48px;
   display: block;
   font-weight: 700;
-  color: #009961;
+  color: #ffd662;
 }
 
 .counts .counters p {
@@ -877,7 +879,7 @@ section {
   margin: 0 0 20px 0;
   /*font-family: "Raleway", sans-serif;*/
   font-size: 14px;
-  color: #fff;
+  color: #ffd662;
 }
 
 @media (min-width: 1200px) {
@@ -1074,7 +1076,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #009961;
+  color: #FF6542;
   font-weight: 500;
   /*font-family: "Open Sans", sans-serif;*/
   margin-bottom: 20px;
@@ -1125,8 +1127,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #009961;
-  color: #009961;
+  border: 2px solid #FF6542;
+  color: #FF6542;
   font-size: 14px;
   font-weight: 400;
   /*font-family: "Raleway", sans-serif;*/
@@ -1135,16 +1137,16 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #009961;
+  background: #FF6542;
   color: #fff;
 }
 
 .pricing .recommended {
-  border-color: #009961;
+  border-color: #FF6542;
 }
 
 .pricing .recommended .btn-buy {
-  background: #009961;
+  background: #FF6542;
   color: #fff;
 }
 
@@ -1161,8 +1163,8 @@ section {
   z-index: 1;
   font-size: 13px;
   padding: 3px 25px 6px 25px;
-  background: #edfbf0;
-  color: #009961;
+  background: #FF6542;
+  color: #eee;
   border-radius: 50px;
 }
 
@@ -1223,7 +1225,7 @@ section {
 .faq .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1295,7 +1297,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #009961;
+  color: #7D80DA;
   float: left;
   line-height: 1;
 }
@@ -1390,7 +1392,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #009961;
+  background: #7D80DA;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1399,7 +1401,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #00b371;
+  background: #FF6542;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1477,7 +1479,7 @@ section {
   font-weight: 700;
   color: #fff;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: Helvetica, sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
 }
